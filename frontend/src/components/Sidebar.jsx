@@ -8,7 +8,7 @@ const Sidebar = () => {
   const items = getNavigationItems(user?.role || 'cashier');
 
   return (
-    <aside className="hidden min-h-screen w-72 flex-col border-r border-slate-200 bg-slate-900 px-5 py-6 text-slate-100 lg:flex">
+    <aside className="flex min-h-screen w-72 flex-col border-r border-slate-200 bg-slate-900 px-5 py-6 text-slate-100">
       <div className="mb-8">
         <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-400">POS Hub</p>
         <h2 className="mt-2 text-2xl font-semibold">Inventory Suite</h2>
